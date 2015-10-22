@@ -1,0 +1,26 @@
+{
+  "name": "inmuebles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "angular-route": "^1.4.7",
+    "jquery": "^2.1.4",
+    "angular": "^1.4.7",
+    "bootstrap": "^3.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elnaufrago2009/inmuebles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elnaufrago2009/inmuebles/issues"
+  },
+  "homepage": "https://github.com/elnaufrago2009/inmuebles#readme"
+}
