@@ -24,6 +24,7 @@
     <script src="node_modules/angular-route/angular-route.js"></script>
     <script src="app.js"></script>
     <script src="views/inicio/inicio.js"></script>
+    <script src="views/detalle/detalle.js"></script>
 
 
 </head>
@@ -48,16 +49,22 @@
                 <li class="dropdown">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Opciones <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Habitaciones</a></li>
-                        <li><a href="#">Compra venta</a></li>
-                        <li><a href="#">Traspasos</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-hand-right"></span> Habitaciones temporales</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-hand-right"></span> Compra venta casas</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-hand-right"></span> Traspasos</a></li>
                         <li role="separator" class="divider"></li>
-                        <li class="dropdown-header">Nav header</li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
+                        <li class="dropdown-header"><span class="glyphicon glyphicon-hand-right"></span> Departamentos</li>
+                        <li><a href="#"><span class="glyphicon glyphicon-hand-right"></span> Habitaciones largo plazo</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-hand-right"></span> Locales Comerciales </a></li>
                     </ul>
                 </li>
             </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Ejm: Habitaciones">
+                </div>
+                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Buscar</button>
+            </form>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#"><span class="glyphicon glyphicon-user"></span> Login</a></li>
             </ul>
@@ -73,7 +80,10 @@
         hola mundo
     </div>
 
-
+    <footer>
+        <hr/>
+        <p>katuq 2015</p>
+    </footer>
 </div> <!-- /container -->
 
 
